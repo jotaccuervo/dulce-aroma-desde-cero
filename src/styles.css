@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+:root {
+--primary: #d97706;
+--background-light: #faf7f2;
+--background-dark: #111827;
+}
+ 
+body {
+margin: 0;
+background: var(--background-light);
+font-family: Arial, Helvetica, sans-serif;
+}
